@@ -1,5 +1,23 @@
-header{
+header {
     background-color: #011149;
     color: white;
+    overflow: hidden;
 }
 
+.texto-esquerda, .texto-direita {
+    height: 100px;
+    margin-top: 120px; /* Adicione um espaçamento superior */
+}
+
+.imagem :left {
+    float: left;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.texto-direita {
+    float: right;
+    text-align: right;
+    margin-right: 140px;
+    color: #00D1FF;
+}
