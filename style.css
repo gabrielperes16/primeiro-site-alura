@@ -2,22 +2,44 @@ header {
     background-color: #011149;
     color: white;
     overflow: hidden;
-}
+ }  
 
-.texto-esquerda, .texto-direita {
-    height: 100px;
-    margin-top: 120px; /* Adicione um espaçamento superior */
-}
-
-.imagem :left {
+body {
+    background-color: #032DBF; /* preencha todo o site com esta cor */
+  }
+  .imagem-esquerda {
     float: left;
     text-align: left;
-    margin-left: 100px;
-}
-
-.texto-direita {
+    margin-left: 140px;
+    max-width: 11%; /* Defina a largura desejada, que é menor que a largura atual */
+    border-radius: 80px; /* Arredonde as bordas da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-top: 5%;
+   }
+  .texto-direita {
     float: right;
     text-align: right;
     margin-right: 140px;
     color: #00D1FF;
+    font-size: 25px;
+    margin-bottom: 0%;
+    margin-top: 7%;
+  }
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+.imagem-perfil {
+    float: right;
+    text-align: right;
+    margin-right: -19%; /* mova a imagem-perfil 10% em direção a direita */
+    max-width: 11%; /* Defina a largura desejada, que é maior que a largura atual */
+    border-radius: 100%; /* Arredonde as bordas da imagem */
+    height: 10%; /* aumentar a proporção da imagem */
+    width: 5%; /* Aumente a largura para 105% do tamanho original ou o valor desejado */
+    margin-top: 5%;
+    margin-bottom: 0%;
 }
+ 
