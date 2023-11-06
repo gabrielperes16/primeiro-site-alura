@@ -7,36 +7,39 @@ body {
 
 header {
   overflow: hidden;
-  padding: 30px;
+  padding: 200px;
 }
 
 .imagem-esquerda {
   float: left;
   text-align: left;
-  margin-left: 120px;
   border-radius: 80px;
-  margin-top: 20px;
   max-height: 250px;
 }
-
 .texto-direita {
   float: right;
   text-align: right;
-  margin-right: 140px;
   color: #00D1FF;
   font-size: 25px;
-  margin-top: 7%;
+  position: relative; /* Define o posicionamento absoluto para o texto */
+  margin-right: 200px; /* Ajusta a margem direita para dar espaço à imagem de perfil */
+  clear: both; /* Limpa os elementos flutuantes anteriores (a imagem de perfil) */
 }
+
 .texto-central {
   text-align: center;
   color: #ffffff;
   font-size: 30px;
-  margin-top: 30%;
-text-align: left;
-margin-bottom: 200px;
+  margin-top: 15%;
+  text-align: left;
+  margin-bottom: 100px;
+  font-style: oblique;
 }
-
-.fundo-inferior {
-  background-color: #011457; /* Cor de fundo para cobrir a parte inferior */
-  height: 300px; /* Altura desejada para cobrir a parte inferior */
+.imagem-perfil {
+  width: 125px;
+  height: 125px;
+  background-color: #000000;
+  border-radius: 100%; /* Define um raio de 10 pixels para os cantos arredondados */
+  float: right;
+  
 }
