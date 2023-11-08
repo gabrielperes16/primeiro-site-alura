@@ -13,8 +13,7 @@ header {
   text-align: left;
   border-radius: 80px;
   max-height: 250px;
-  margin-top: -100px; /* Reduzi a margem superior da imagem da esquerda */
-  margin-bottom: 160px;
+  margin-top: -100px;
 
 }
 .texto-direita {
@@ -24,7 +23,7 @@ header {
   font-size: 25px;
   position: relative;
   margin-right: 180px;
-  margin-top: -550px; /* Levanta o texto da direita em 150 pixels */
+  margin-top: -41%;
   clear: both;
   margin-bottom: 20px;
   font-style: oblique;
@@ -33,7 +32,7 @@ header {
   text-align: center;
   color: #ffffff;
   font-size: 30px;
-  margin-top: 10%; /* Reduzi a margem superior do texto central */
+  margin-top: 10%;
   text-align: left;
   margin-bottom: 100px;
   font-style: oblique;
@@ -46,8 +45,8 @@ header {
   height: 100px;
   background-color: #000000;
   border-radius:100%;
-  float: right;
-  margin-top: -70px; /* Reduzi a margem superior da imagem de perfil */
+float: right;
+  margin-top: -70px;
   margin-right: -10%;
 }
 .pergunta-central {
@@ -56,4 +55,11 @@ margin-left: 45px;
 font-size: 35px;
 font-style: initial;
 margin-bottom: 30px;
+}
+.imagem-decorativa{
+height: 400px;
+display: flex;
+padding-top: 10%;
+float: right;
+margin-right: 110px;
 }
